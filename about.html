@@ -42,17 +42,10 @@
           <div class="container">
             <div class="row">
               <div class="col-xl-6 col-md-6">
-                <div class="social_media_links">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                </div>
+                <div
+                  id="google_translate_element"
+                  class="d-md-block d-flex justify-content-center align-items-center"
+                ></div>
               </div>
               <div class="col-xl-6 col-md-6">
                 <div class="short_contact_list">
@@ -244,7 +237,11 @@
               <div class="footer_widget">
                 <div class="footer_logo">
                   <a href="#">
-                    <img src="img/logo.png" alt="" height="50" />
+                    <img
+                      src="img/logo.png"
+                      alt="Walter Aiden Logo"
+                      height="50"
+                    />
                   </a>
                 </div>
                 <p>
@@ -276,11 +273,11 @@
               <div class="footer_widget">
                 <h3 class="footer_title">Departments</h3>
                 <ul>
-                  <li><a href="#">Eye Care</a></li>
-                  <li><a href="#">Skin Care</a></li>
-                  <li><a href="#">Pathology</a></li>
-                  <li><a href="#">Medicine</a></li>
-                  <li><a href="#">Dental</a></li>
+                  <li><a href="#">Anaesthesia</a></li>
+                  <li><a href="#">Antenatal</a></li>
+                  <li><a href="#">Mental Health</a></li>
+                  <li><a href="#">Paediatrics</a></li>
+                  <li><a href="#">Pharmacy</a></li>
                 </ul>
               </div>
             </div>
@@ -321,7 +318,8 @@
                   document.write(new Date().getFullYear());
                 </script>
                 All rights reserved
-                <a href="https://colorlib.com" target="_blank">Walter Aiden</a>
+
+                <a href="">Walter Aiden</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
@@ -424,5 +422,38 @@
         $(".js-example-basic-multiple").select2();
       });
     </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/6628cfbd1ec1082f04e632fb/1hs7mmvns";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
   </body>
 </html>
