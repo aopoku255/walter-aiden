@@ -930,20 +930,30 @@
     <!-- link that opens popup -->
 
     <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide">
+    <form
+      id="test-form"
+      class="white-popup-block mfp-hide"
+      action="https://formspree.io/f/mjvnjddk"
+      method="post"
+    >
       <div class="popup_box">
         <div class="popup_inner">
           <h3>Make an Appointment</h3>
           <form action="#">
             <div class="row">
               <div class="col-xl-6">
-                <input id="datepicker" placeholder="Pick date" />
+                <input id="datepicker" placeholder="Pick date" name="date" />
               </div>
               <div class="col-xl-6">
-                <input type="time" placeholder="Suitable time" />
+                <input type="time" placeholder="Suitable time" name="time" />
               </div>
               <div class="col-xl-6">
-                <select class="form-select wide" id="default-select" class="">
+                <select
+                  class="form-select wide"
+                  id="default-select"
+                  class=""
+                  name="department"
+                >
                   <option data-display="Select Department">Department</option>
                   <option value="1">Anaesthesia</option>
                   <option value="2">Antenatal and Maternity Care</option>
@@ -957,7 +967,12 @@
                 </select>
               </div>
               <div class="col-xl-6">
-                <select class="form-select wide" id="default-select" class="">
+                <select
+                  class="form-select wide"
+                  id="default-select"
+                  class=""
+                  name="doctor"
+                >
                   <option data-display="Doctors">Doctors</option>
                   <option value="1">Dr. Nana Addo</option>
                   <option value="2">Dr. Kofi Dekyi</option>
@@ -966,17 +981,17 @@
                 </select>
               </div>
               <div class="col-xl-6">
-                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Name" name="name" />
               </div>
               <div class="col-xl-6">
-                <input type="text" placeholder="Phone no." />
+                <input type="text" placeholder="Phone no." name="phone" />
               </div>
               <div class="col-xl-12">
-                <input type="email" placeholder="Email" />
+                <input type="email" placeholder="Email" name="email" />
               </div>
               <div class="col-xl-12">
                 <textarea
-                  name=""
+                  name="message"
                   class="textarea"
                   id=""
                   cols="30"
